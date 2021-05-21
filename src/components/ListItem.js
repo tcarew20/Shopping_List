@@ -34,7 +34,7 @@ const ListItem = ({ onDelete, item, addQuantity, subQuantity }) => {
                 </Grid>
                 <Grid item xs={1}>
                     <AddIcon style={{ cursor: 'pointer'}} onClick={() =>
-                        setQuantity(quantity + 1)}/>
+                        setQuantity(parseInt(quantity) + 1)}/>
                 </Grid>
             </Grid>
         </div>
